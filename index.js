@@ -9,6 +9,36 @@ var issues = {
       what: "Not responsive",
       why: "The majority of people do their searches on the move meaning they use their phone, maybe tablet, to do a search. When a website is not responsive it does not fit a mobile screen in a way that is easy, simple and enjoyable for the potential customer to use. This can easily make them frustrated and move on to your competitors",
       how: "We can make your website responsive so it looks good on any device so your potential customer will have a simple and easy to use site that will make their decision of choosing you easy."
+    },
+    {
+      what:"Not mobile friendly",
+      why:"It’s 2016 and everything is done on the phone. Not having a mobile friendly site will make you come off as less than your competitors and will make your potential customers, even your current ones go to a different company.",
+      how:"Having a mobile friendly website will put you in the top of your industry, make it easy and simple for your potential customers to use your site and make the decision to choose your business or product."
+    },
+    {
+      what:"Difficult to read",
+      why:"If your websites content is difficult to read, there is now way your potential customers will go through your content, know what you guys are all about, and will most definitely move on to the next business.",
+      how:"Having a site with clearly readable and understandable content is vital to getting new customers."
+    },
+    {
+      what:"Bad user experience design",
+      why:"Having a site with clearly readable and understandable content is vital to getting new customers.",
+      how:"With a quality design your potential and current users will have a the experience needed to choose your business or product."
+    },
+    {
+      what:"Loads slowly",
+      why:"With a quality design your potential and current users will have a the experience needed to choose your business or product. ",
+      how:"Having a fast working site will make potential customers not just have a better experience on your site but also feel that you are business that gets things done quickly and will bring in more customers."
+    },
+    {
+      what:"No form on contact page",
+      why:"People do not have the time, and it can get annouying, to copy an e-mail address, then go to their e-mail site, and then paste the e-mail address. Without a e-mail form on your website people will often just leave your site.",
+      how:"Having an e-mail form on your website where potential customers and clients can e-mail you directly with simplicity and ease bring in a lot more customers or clients."
+    },
+    {
+      what:"Not SEO friendly",
+      why:"Having a site that is not SEO friendly will dramatically decrease the amount of potential customers or clients that even come across your page holding you back from potentially increasing sales.",
+      how:"Having your site be SEO friendly will bring in a lot more traffic to your site, increase your online presences dramatically increasing sales."
     }
   ]
 }

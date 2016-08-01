@@ -5,11 +5,21 @@
     <link rel="stylesheet" href="static/css/style.css">
   </header>
   <body>
+    <form action="">
+      <label for="">
+        <input class="checkbox" type="checkbox" name="index1" value=1>Out of Date</input><br>
+        <input class="checkbox" type="checkbox" name="index2" value=2>Not responsive</input><br>
+        <input class="checkbox" type="checkbox" name="index3" value=3>Not mobile friendly</input><br>
+        <input class="checkbox" type="checkbox" name="index4" value=4>Difficult to read</input><br>
+        <input class="checkbox" type="checkbox" name="index5" value=5>Bad UX/UI design</input><br>
+        <input class="checkbox" type="checkbox" name="index6" value=6>Loads Slowly</input><br>
+        <input class="checkbox" type="checkbox" name="index7" value=7>No form on contact page</input><br>
+        <input class="checkbox" type="checkbox" name="index8" value=8>Not SEO friendly</input>
+      </label>
+    </form>
+
   <div id="sales-output">This is where the sales output will go</div>
-
   <script id="sales-output-template" type="text/x-handlebars-template">
-
-
 	      {{#each theIssue}}
 	      	<strong>{{what}}</strong>
           <br>
@@ -18,7 +28,6 @@
           {{how}}
           <br><br>
 	      {{/each}}
-
   </script>
 
   <script src="static/js/main.js"></script>

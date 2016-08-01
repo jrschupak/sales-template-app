@@ -1,3 +1,11 @@
 html  {
   background: orange;
 }
+
+form {
+  margin-bottom: 30px;
+}
+
+/*.checkbox {
+  margin: 10px;
+}*/
