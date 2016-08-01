@@ -8,11 +8,21 @@
   <div id="sales-output">This is where the sales output will go</div>
 
   <script id="sales-output-template" type="text/x-handlebars-template">
-    <h1>{{name}}</h1>
+
+
+	      {{#each theIssue}}
+	      	<strong>{{what}}</strong>
+          <br>
+          {{why}}
+          <br><br>
+          {{how}}
+          <br><br>
+	      {{/each}}
+
   </script>
 
   <script src="static/js/main.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script> 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
   <script src="index.js"></script>
   </body>
 </html>
