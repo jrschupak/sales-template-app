@@ -44,6 +44,43 @@ var issues = {
 }
 
 
+//push all checkboxes into an array
+var checkboxArr = document.querySelector('form');
+
+var boxesChecked = {currentIssues: [{what: "HELLOOOO WORLD"},]};
+
+// document.querySelector('query')
+
+//function to check if a checkbox is checked off
+//if it is checked then push that value into an array
+//(or if it is checked take the value, grab that index from the object array above and push it into the new array)
+//after going through all the checkboxes, take the new array with all the values, and in a for loop use the index of the new array to grab the indexes from the object array above and push them into a newer array and then return the new array to be pushed into the handlesbars
+function isChecked(){
+ for(var i = 0; i < checkboxArr.length; i++){
+   if(checkboxArr[i].checked === true){
+     boxesChecked.currentIssues.push(issues.theIssue[i])
+   }
+   var source = document.getElementById('sales-output-template').innerHTML;
+
+   //compile the source and turn it into a function
+   var template = Handlebars.compile(source);
+
+   //pass the object to the function, store it in the "html" variable
+   //the function will return computer html to us
+   var computedHtml = template(boxesChecked);
+
+   var container = document.getElementById('sales-output');
+   container.innerHTML = computedHtml;
+ }
+ return boxesChecked;
+
+};
+
+var submitButton = document.querySelector('button');
+
+submitButton.addEventListener("click", function(){
+  isChecked()
+});
 
 
 
@@ -56,7 +93,7 @@ var template = Handlebars.compile(source);
 
 //pass the object to the function, store it in the "html" variable
 //the function will return computer html to us
-var computedHtml = template(issues);
+var computedHtml = template(boxesChecked);
 
 var container = document.getElementById('sales-output');
 container.innerHTML = computedHtml;

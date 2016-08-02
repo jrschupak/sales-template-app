@@ -6,21 +6,22 @@
   </header>
   <body>
     <form action="">
-      <label for="">
-        <input class="checkbox" type="checkbox" name="index1" value=1>Out of Date</input><br>
-        <input class="checkbox" type="checkbox" name="index2" value=2>Not responsive</input><br>
-        <input class="checkbox" type="checkbox" name="index3" value=3>Not mobile friendly</input><br>
-        <input class="checkbox" type="checkbox" name="index4" value=4>Difficult to read</input><br>
-        <input class="checkbox" type="checkbox" name="index5" value=5>Bad UX/UI design</input><br>
-        <input class="checkbox" type="checkbox" name="index6" value=6>Loads Slowly</input><br>
-        <input class="checkbox" type="checkbox" name="index7" value=7>No form on contact page</input><br>
-        <input class="checkbox" type="checkbox" name="index8" value=8>Not SEO friendly</input>
-      </label>
+
+        <input id="index1"class="checkbox" type="checkbox" name="index1" value=0>Out of Date</input><br>
+        <input id="index2"class="checkbox" type="checkbox" name="index2" value=1>Not responsive</input><br>
+        <input id="index3"class="checkbox" type="checkbox" name="index3" value=2>Not mobile friendly</input><br>
+        <input id="index4"class="checkbox" type="checkbox" name="index4" value=3>Difficult to read</input><br>
+        <input id="index5"class="checkbox" type="checkbox" name="index5" value=4>Bad UX/UI design</input><br>
+        <input id="index6"class="checkbox" type="checkbox" name="index6" value=5>Loads Slowly</input><br>
+        <input id="index7"class="checkbox" type="checkbox" name="index7" value=6>No form on contact page</input><br>
+        <input id="index8"class="checkbox" type="checkbox" name="index8" value=7>Not SEO friendly</input>
+        <br>
     </form>
+      <button>SUBMIT</button>
 
   <div id="sales-output">This is where the sales output will go</div>
   <script id="sales-output-template" type="text/x-handlebars-template">
-	      {{#each theIssue}}
+	      {{#each currentIssues}}
 	      	<strong>{{what}}</strong>
           <br>
           {{why}}
