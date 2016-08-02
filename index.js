@@ -17,7 +17,7 @@ var issues = {
     },
     {
       what:"Difficult to read",
-      why:"If your websites content is difficult to read, there is now way your potential customers will go through your content, know what you guys are all about, and will most definitely move on to the next business.",
+      why:"If your websites content is difficult to read, there is no way your potential customers will go through your content, know what you guys are all about, and will most definitely move on to the next business.",
       how:"Having a site with clearly readable and understandable content is vital to getting new customers."
     },
     {
@@ -32,7 +32,7 @@ var issues = {
     },
     {
       what:"No form on contact page",
-      why:"People do not have the time, and it can get annouying, to copy an e-mail address, then go to their e-mail site, and then paste the e-mail address. Without a e-mail form on your website people will often just leave your site.",
+      why:"People do not have the time, and it can get annoying, to copy an e-mail address, then go to their e-mail site, and then paste the e-mail address. Without a e-mail form on your website people will often just leave your site.",
       how:"Having an e-mail form on your website where potential customers and clients can e-mail you directly with simplicity and ease bring in a lot more customers or clients."
     },
     {
