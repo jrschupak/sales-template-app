@@ -47,7 +47,7 @@ var issues = {
 //push all checkboxes into an array
 var checkboxArr = document.querySelector('form');
 
-var boxesChecked = {currentIssues: [{what: "HELLOOOO WORLD"},]};
+var boxesChecked = {currentIssues: []};
 
 // document.querySelector('query')
 
